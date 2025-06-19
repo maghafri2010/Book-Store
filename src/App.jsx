@@ -11,20 +11,18 @@ function App() {
   const [count, setCount] = useState('home')
 
   return (
-        <>
+        
         <Routes>
           <Route path='/'
           element={<Home/>}
           />
-        </Routes>
-        <Routes>
           <Route path='/account'
           element={<Account/>}
           />
         </Routes>        
           
           
-        </>
+        
   )
 }
 

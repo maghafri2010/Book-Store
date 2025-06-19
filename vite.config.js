@@ -4,7 +4,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 
 // https://vite.dev/config/
-export default defineConfig({server: {
+export default defineConfig({
+  base: '/Book-Store/',
+  server: {
   watch: {
     usePolling: true,
   },
