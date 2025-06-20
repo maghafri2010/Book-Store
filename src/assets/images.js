@@ -29,6 +29,7 @@ import SecretGarden from './images/SecretGarden.png';
 import AnneOfGreenGables from './images/AnneOfGreenGables.png';
 import RoomWithAView from './images/RoomWithAView.jpeg';
 import WindInTheWillows from './images/WindInTheWillows.jpeg';
+import Bundles from './images/bundles.png'
 
 
 
@@ -45,7 +46,7 @@ import WindInTheWillows from './images/WindInTheWillows.jpeg';
 
 
 
-export {menuIcon, searchIcon, logo, userIcon, shopIcon, background, categories, rightArrow, leftArrow, sale};
+export {menuIcon, searchIcon, logo, userIcon, shopIcon, background, categories, rightArrow, leftArrow, sale, Bundles};
 
 export {Sapiens, Educated, ThinkingFastAndSlow, HenriettaLacks, AtomicHabits };
 
