@@ -15,7 +15,7 @@ export default function ShopBar({bol})
                 <h1 className="text-2xl mb-4">Your cart is empty</h1>
                 <button className="border rounded-2xl bg-black text-white mb-4 w-48 h-14 cursor-pointer duration-900 hover:opacity-80 transition-transform">Continue Shopping</button>
                 <h1 className="text-[18px] mb-10">Have an account?</h1>
-                <p><a href=""><u>Log in</u></a> to check out faster</p>
+                <p><a href="/account"><u>Log in</u></a> to check out faster</p>
             </div>
             <div className="hover:opacity-80 hover:translate-x-2 transition-transform ease-in-out duration-700 cursor-pointer">
                 <img className=" ml-10 h-64 mb-10" src={Bundles} alt="bundles" />

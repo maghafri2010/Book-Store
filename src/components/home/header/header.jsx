@@ -3,6 +3,7 @@ import {menuIcon, searchIcon, logo, userIcon, shopIcon} from '../../../assets/im
 import Menu from '../header/menu';
 import Search from '../header/search';
 import ShopBar from '../header/shopBar';
+import { Link } from 'react-router-dom';
 
 
 
@@ -53,15 +54,15 @@ export default function Header(){
         </div>
         
         <div>
-            <a href="/"><img className=" p-5 w-28 " src={logo} alt="classical book"/></a>
+            <Link to="/"><img className=" p-5 w-28 " src={logo} alt="classical book"/></Link>
         </div>
         
         <div className="flex mr-7">
-            <a
-            href="/account" 
+            <Link
+            to="/account" 
             className="mr-8 w-7 cursor-pointer hover:opacity-80 transition-transform ease-in-out" >
                 <img src={userIcon} alt="use"/>
-            </a>
+            </Link>
 
             <ShopBar bol={barBol} />
 

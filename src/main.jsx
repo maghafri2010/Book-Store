@@ -3,13 +3,13 @@ import { createRoot, render } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 
-import { HashRouter as Router } from 'react-router-dom'
+import { HashRouter, HashRouter as Router } from 'react-router-dom'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <Router>
+   <HashRouter>
     <App/>
-  </Router>
+  </HashRouter>
   </StrictMode>,
 )

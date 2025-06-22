@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function CreateAccount()
+export default function CreateAccount({onSwitch})
 {
     return (
 
@@ -13,7 +13,13 @@ export default function CreateAccount()
                 <input className=" border rounded w-[260px] h-10 m-4" type="text" placeholder="  Email"/>
                 <input className=" border rounded w-[260px] h-10 m-4" type="password" placeholder="  Password" />
             </div>
-            <button className="hover:opacity-80 hover:bg-black hover:text-white transition-transform ease-in-out w-28 h-9 cursor-pointer border rounded ">Create</button>
+            <button 
+            className="hover:opacity-80 hover:bg-black hover:text-white transition-transform ease-in-out mb-4 w-28 h-9 cursor-pointer border rounded "
+            >Create</button>
+            <button 
+            onClick={() => onSwitch("login")}
+            className="cursor-pointer hover:opacity-80 text-gray-600"
+            ><u>Already have an account?</u></button>
         </div>
     );
 }
