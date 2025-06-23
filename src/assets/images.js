@@ -34,12 +34,12 @@ import Bundles from './images/bundles.png'
 
 
   const categories = [
-    { icon: bag, label: 'Custom Bundle' },
-    { icon: reward, label: 'Best Sellers' },
-    { icon: nonfiction, label: 'Non-Fiction' },
     { icon: fiction, label: 'Fiction' },
+    { icon: nonfiction, label: 'Non-Fiction' },
     { icon: manga, label: 'Manga' },
-    { icon: bag, label: 'Tote-Bags' },
+    { icon: bag, label: 'French Titles' },
+    { icon: bag, label: 'Bundles' },
+    { icon: reward, label: 'Best Sellers' },
   ];
 
 

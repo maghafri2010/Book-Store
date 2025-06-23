@@ -32,7 +32,7 @@ export default function Header(){
 
     return (
         <>
-         <header className="flex justify-between relative items-center z-50 bg-white "> 
+         <header className="flex justify-between relative items-center z-50 bg-white border-b-1 border-gray-300  "> 
             <div className='ml-7'>
 
             <Menu bol={bol} />              

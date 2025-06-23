@@ -19,10 +19,10 @@ export default function Home(){
         <SpringSale />
         <Categories />
 
-        <SliderImage books={booksData.fictionBooks} title={genresTitle[0]} />
-        <SliderImage books={booksData.nonFictionBooks} title={genresTitle[1]} />
-        <SliderImage books={booksData.springBooks} title={genresTitle[2]} />
-        <SliderImage books={booksData.mangaBooks} title={genresTitle[3]} />
+        <SliderImage books={booksData.fictionBooks} title={genresTitle[0]} i={0} />
+        <SliderImage books={booksData.nonFictionBooks} title={genresTitle[1]} i={1} />
+        <SliderImage books={booksData.springBooks} title={genresTitle[2]} i={2}/>
+        <SliderImage books={booksData.mangaBooks} title={genresTitle[3]} i={3}/>
 
 
         <Footer />

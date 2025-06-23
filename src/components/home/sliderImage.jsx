@@ -5,6 +5,7 @@ import { rightArrow, leftArrow, sale } from "../../assets/images";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { Link } from "react-router-dom";
 
 const settings = {
   dots: true,
@@ -20,7 +21,7 @@ const settings = {
 
 const genresTitle = ['Fiction Team Choice 🔮🪐', 'Non-Fiction Team Choice 🎖️', 'Spring: A Treasury of Bestseller Timeless Classics 📜', 'Best of Manga Bundles 🇯🇵' ];
 
-export default function SliderImage({books = booksData.fictionBooks, title}) {
+export default function SliderImage({books = booksData.fictionBooks, title, i}) {
    
     return( 
         <div className="flex flex-col mt-12">
@@ -43,8 +44,10 @@ export default function SliderImage({books = booksData.fictionBooks, title}) {
                     
                     </div>
                 ))}
-        </Slider>
-        <button className="mt-12 border border-gray-400 w-[10%] h-10 rounded-2xl mx-auto hover:text-white hover:bg-black ease-in-out duration-700 cursor-pointer mb-12 ">View All</button>
+
+            </Slider>
+            <Link to={`/store/${i}`} className="mt-12 border border-gray-400 w-[10%] h-10 rounded-2xl mx-auto text-center hover:text-white hover:bg-black ease-in-out duration-700 cursor-pointer mb-12 ">View All</Link>
+
         </div>
     );
 }
