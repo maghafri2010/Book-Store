@@ -13,7 +13,7 @@ export default function Store()
     return(
         <div>
             <Header/>
-            <StoreConfig listOfBooks={genreList}/>
+            <StoreConfig listOfBooks={genreList} genreIndex={genreIndex}/>
             <Footer/>
         </div>
     );

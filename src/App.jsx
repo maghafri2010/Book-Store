@@ -5,6 +5,7 @@ import Home from './pages/home'
 import Account from './pages/account'
 import {Routes, Route } from "react-router-dom"
 import Store from './pages/store'
+import Book from './components/store/Books/book'
 
 
 
@@ -20,6 +21,8 @@ function App() {
           element={<Account/>}
           />
           <Route path='/store/:genreIndex' element={<Store/>} />
+          
+          <Route path='/book/:genreIndex/:bookIndex' element={<Book/>}/>
         </Routes> 
           
           

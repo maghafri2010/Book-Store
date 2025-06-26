@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export default function StoreConfig({listOfBooks})
+export default function StoreConfig({listOfBooks, genreIndex})
 {
 
 
@@ -16,7 +17,8 @@ export default function StoreConfig({listOfBooks})
             <div className="flex flex-wrap my-24 justify-center">
 
             {listOfBooks.map((book, i) => (
-            <div className="flex flex-col border w-80 h-140 m-4 ">
+            <Link to={`/book/${genreIndex}/${i}`} 
+            className="flex flex-col border w-80 h-140 m-4 cursor-pointer transition-transform ease-in-out duration-700 hover:opacity-80  ">
                 <img 
                 className=" h-[450px]" 
                 src={book.image} 
@@ -24,7 +26,7 @@ export default function StoreConfig({listOfBooks})
                 <h2 className="text-gray-500 ml-4 mb-4">{book.author}</h2>
                 <p className="font-bold border-b ml-4 mr-4">{book.name}</p>
                 <p className="font-bold text-[19px] ml-4">{book.price}</p>
-            </div>
+            </Link>
             ))}
             
             </div>

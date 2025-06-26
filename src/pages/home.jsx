@@ -5,7 +5,7 @@ import SliderImage from "../components/home/sliderImage";
 import Footer from "../components/home/footer";
 import booksData from "../assets/listBooks";
 
-const genresTitle = [
+export const genresTitle = [
   "Fiction Team Choice 🔮🪐",
   "Non-Fiction Team Choice 🎖️",
   "Spring: A Treasury of Bestseller Timeless Classics 📜",
