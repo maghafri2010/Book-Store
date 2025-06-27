@@ -4,7 +4,7 @@ const fiction = [
     name: "The Great Gatsby",
     author: "F. Scott Fitzgerald",
     price: 11,
-    image: "https://covers.openlibrary.org/b/id/8226196-L.jpg",
+    image: "https://covers.openlibrary.org/b/olid/OL46773254M-L.jpg",
     description: "A dazzling portrait of the Jazz Age, exploring love, wealth, and the American Dream in 1920s New York."
   },
   {
@@ -12,7 +12,7 @@ const fiction = [
     name: "To Kill a Mockingbird",
     author: "Harper Lee",
     price: 10,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL899317M-L.jpg",
     description: "A moving story of racial injustice and childhood innocence set in the Deep South."
   },
   {
@@ -20,7 +20,7 @@ const fiction = [
     name: "1984",
     author: "George Orwell",
     price: 9,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL7353617M-L.jpg",
     description: "A chilling dystopian novel about surveillance, totalitarianism, and the loss of individuality."
   },
   {
@@ -28,7 +28,7 @@ const fiction = [
     name: "Pride and Prejudice",
     author: "Jane Austen",
     price: 8,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL25420438M-L.jpg",
     description: "A witty and romantic classic that explores manners, marriage, and society in 19th-century England."
   },
   {
@@ -36,7 +36,7 @@ const fiction = [
     name: "The Catcher in the Rye",
     author: "J.D. Salinger",
     price: 7,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL16164303M-L.jpg",
     description: "A coming-of-age tale following Holden Caulfield's journey through alienation and rebellion."
   },
   {
@@ -44,7 +44,7 @@ const fiction = [
     name: "Beloved",
     author: "Toni Morrison",
     price: 13,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL365892M-L.jpg",
     description: "A haunting exploration of slavery's legacy and a mother's love, set after the American Civil War."
   },
   {
@@ -52,7 +52,7 @@ const fiction = [
     name: "The Kite Runner",
     author: "Khaled Hosseini",
     price: 11,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL25436022M-L.jpg",
     description: "A powerful story of friendship, betrayal, and redemption set against the backdrop of Afghanistan's history."
   },
   {
@@ -60,7 +60,7 @@ const fiction = [
     name: "Life of Pi",
     author: "Yann Martel",
     price: 10,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL22105596M-L.jpg",
     description: "A fantastical survival tale of a boy stranded at sea with a Bengal tiger."
   },
   {
@@ -68,7 +68,7 @@ const fiction = [
     name: "The Alchemist",
     author: "Paulo Coelho",
     price: 9,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL25473046M-L.jpg",
     description: "A philosophical adventure about following your dreams and listening to your heart."
   },
   {
@@ -76,7 +76,7 @@ const fiction = [
     name: "A Thousand Splendid Suns",
     author: "Khaled Hosseini",
     price: 11,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL25438911M-L.jpg",
     description: "A moving tale of two Afghan women bound by hardship, hope, and friendship."
   },
   {
@@ -84,7 +84,7 @@ const fiction = [
     name: "The Book Thief",
     author: "Markus Zusak",
     price: 10,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL25449189M-L.jpg",
     description: "A unique WWII story narrated by Death, about a girl's love for books in Nazi Germany."
   },
   {
@@ -92,7 +92,7 @@ const fiction = [
     name: "Little Fires Everywhere",
     author: "Celeste Ng",
     price: 10,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL25489347M-L.jpg",
     description: "A gripping drama about family secrets, privilege, and the complexities of motherhood."
   },
   {
@@ -100,7 +100,7 @@ const fiction = [
     name: "Where the Crawdads Sing",
     author: "Delia Owens",
     price: 12,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL27152419M-L.jpg",
     description: "A lyrical mystery and coming-of-age story set in the marshes of North Carolina."
   },
   {
@@ -108,7 +108,7 @@ const fiction = [
     name: "Normal People",
     author: "Sally Rooney",
     price: 11,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL25489412M-L.jpg",
     description: "An intimate exploration of love, friendship, and class between two Irish teenagers."
   },
   {
@@ -116,7 +116,7 @@ const fiction = [
     name: "The Midnight Library",
     author: "Matt Haig",
     price: 12,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL25492317M-L.jpg",
     description: "A heartwarming novel about regrets, second chances, and the infinite possibilities of life."
   },
   {
@@ -124,7 +124,7 @@ const fiction = [
     name: "Shatter Me",
     author: "Tahereh Mafi",
     price: 8,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL25490312M-L.jpg",
     description: "A dystopian romance about a girl whose touch is lethal, and her fight for freedom."
   },
   {
@@ -132,7 +132,7 @@ const fiction = [
     name: "The Night Circus",
     author: "Erin Morgenstern",
     price: 10,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL25451234M-L.jpg",
     description: "A magical tale of rivalry and romance set in a mysterious, wandering circus."
   },
   {
@@ -140,7 +140,7 @@ const fiction = [
     name: "Circe",
     author: "Madeline Miller",
     price: 11,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL25450278M-L.jpg",
     description: "A feminist retelling of the Greek myth, following the life of the enchantress Circe."
   },
   {
@@ -148,7 +148,7 @@ const fiction = [
     name: "The Song of Achilles",
     author: "Madeline Miller",
     price: 13,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL25450312M-L.jpg",
     description: "A lyrical and romantic retelling of the Iliad, focusing on Achilles and Patroclus."
   },
   {
@@ -156,7 +156,7 @@ const fiction = [
     name: "It Ends with Us",
     author: "Colleen Hoover",
     price: 9,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL25491345M-L.jpg",
     description: "A powerful contemporary romance about love, resilience, and difficult choices."
   },
   {
@@ -164,354 +164,262 @@ const fiction = [
     name: "Verity",
     author: "Colleen Hoover",
     price: 11,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/olid/OL25491367M-L.jpg",
     description: "A dark and twisty psychological thriller about a writer, a mysterious manuscript, and deadly secrets."
   }
 ];
 
 
+
 const nonFiction = [
   {
-    genre: "Non-Fiction",
+    genre: "Non-fiction",
+    name: "Sapiens: A Brief History of Humankind",
+    author: "Yuval Noah Harari",
+    price: 18,
+    image: "https://covers.openlibrary.org/b/id/8374671-L.jpg",
+    description: "An exploration of the history and impact of Homo sapiens on the world."
+  },
+  {
+    genre: "Non-fiction",
     name: "Educated",
     author: "Tara Westover",
-    price: 14,
-    image: "https://via.placeholder.com/150",
-    description: "A memoir about a woman who grows up in a strict and abusive household in rural Idaho but eventually escapes to learn about the wider world through education."
+    price: 16,
+    image: "https://covers.openlibrary.org/b/id/8369259-L.jpg",
+    description: "A memoir about a woman who grew up in a strict family and pursued education to escape."
   },
   {
-    genre: "Non-Fiction",
+    genre: "Non-fiction",
     name: "Becoming",
     author: "Michelle Obama",
-    price: 17,
-    image: "https://via.placeholder.com/150",
-    description: "The inspiring memoir of the former First Lady of the United States, chronicling her life from childhood to the White House."
+    price: 20,
+    image: "https://covers.openlibrary.org/b/id/9276516-L.jpg",
+    description: "The former First Lady's inspiring memoir on life, family, and public service."
   },
   {
-    genre: "Non-Fiction",
-    name: "Atomic Habits",
-    author: "James Clear",
-    price: 12,
-    image: "https://via.placeholder.com/150",
-    description: "A practical guide to breaking bad habits and building good ones, showing how tiny changes can lead to remarkable results."
+    genre: "Non-fiction",
+    name: "The Immortal Life of Henrietta Lacks",
+    author: "Rebecca Skloot",
+    price: 14,
+    image: "https://covers.openlibrary.org/b/id/8234156-L.jpg",
+    description: "The story of the woman behind the famous HeLa cells and their impact on science."
   },
   {
-    genre: "Non-Fiction",
-    name: "The Power of Now",
-    author: "Eckhart Tolle",
-    price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "A spiritual classic that teaches the importance of living in the present moment and letting go of the past and future."
-  },
-  {
-    genre: "Non-Fiction",
-    name: "The Subtle Art of Not Giving a F*ck",
-    author: "Mark Manson",
-    price: 13,
-    image: "https://via.placeholder.com/150",
-    description: "A counterintuitive approach to living a good life, focusing on embracing our limitations and accepting our flaws."
-  },
-  {
-    genre: "Non-Fiction",
-    name: "Thinking, Fast and Slow",
-    author: "Daniel Kahneman",
-    price: 13,
-    image: "https://via.placeholder.com/150",
-    description: "A groundbreaking book that explores the two systems that drive the way we think: fast, intuitive thinking and slow, deliberate thinking."
-  },
-  {
-    genre: "Non-Fiction",
-    name: "Outliers",
-    author: "Malcolm Gladwell",
-    price: 12,
-    image: "https://via.placeholder.com/150",
-    description: "An exploration of what makes high-achievers different, examining the factors that contribute to success."
-  },
-  {
-    genre: "Non-Fiction",
-    name: "Grit",
-    author: "Angela Duckworth",
-    price: 11,
-    image: "https://via.placeholder.com/150",
-    description: "A look at the power of passion and perseverance in achieving long-term goals."
-  },
-  {
-    genre: "Non-Fiction",
+    genre: "Non-fiction",
     name: "Born a Crime",
     author: "Trevor Noah",
-    price: 12,
-    image: "https://via.placeholder.com/150",
-    description: "A memoir by comedian Trevor Noah about growing up in South Africa during apartheid."
+    price: 15,
+    image: "https://covers.openlibrary.org/b/id/8269616-L.jpg",
+    description: "A memoir about growing up in apartheid South Africa by the comedian and TV host."
   },
   {
-    genre: "Non-Fiction",
-    name: "Quiet",
+    genre: "Non-fiction",
+    name: "Thinking, Fast and Slow",
+    author: "Daniel Kahneman",
+    price: 17,
+    image: "https://covers.openlibrary.org/b/id/8104239-L.jpg",
+    description: "A landmark book exploring the two systems that drive the way we think."
+  },
+  {
+    genre: "Non-fiction",
+    name: "Quiet: The Power of Introverts in a World That Can't Stop Talking",
     author: "Susan Cain",
-    price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "An insightful book about the power of introverts in a world that can't stop talking."
+    price: 16,
+    image: "https://covers.openlibrary.org/b/id/8315104-L.jpg",
+    description: "A compelling case for the value and strengths of introverted people."
   },
   {
-    genre: "Non-Fiction",
-    name: "Can’t Hurt Me",
-    author: "David Goggins",
+    genre: "Non-fiction",
+    name: "The Wright Brothers",
+    author: "David McCullough",
     price: 14,
-    image: "https://via.placeholder.com/150",
-    description: "The story of David Goggins, who transformed himself from a depressed, overweight young man into a U.S. Armed Forces icon and one of the world's top endurance athletes."
+    image: "https://covers.openlibrary.org/b/id/8081076-L.jpg",
+    description: "The dramatic story of the brothers who taught the world to fly."
   },
   {
-    genre: "Non-Fiction",
+    genre: "Non-fiction",
+    name: "The Glass Castle",
+    author: "Jeannette Walls",
+    price: 15,
+    image: "https://covers.openlibrary.org/b/id/8205671-L.jpg",
+    description: "A memoir about a difficult yet inspiring upbringing in a dysfunctional family."
+  },
+  {
+    genre: "Non-fiction",
+    name: "The Power of Habit",
+    author: "Charles Duhigg",
+    price: 16,
+    image: "https://covers.openlibrary.org/b/id/7805522-L.jpg",
+    description: "An exploration of how habits form and how we can change them for good."
+  },
+  {
+    genre: "Non-fiction",
+    name: "Freakonomics",
+    author: "Steven D. Levitt & Stephen J. Dubner",
+    price: 13,
+    image: "https://covers.openlibrary.org/b/id/8314373-L.jpg",
+    description: "A quirky and fascinating look at the hidden side of economics."
+  },
+  {
+    genre: "Non-fiction",
+    name: "Outliers: The Story of Success",
+    author: "Malcolm Gladwell",
+    price: 15,
+    image: "https://covers.openlibrary.org/b/id/8670639-L.jpg",
+    description: "Analyzes what makes high-achievers different and the factors behind success."
+  },
+  {
+    genre: "Non-fiction",
+    name: "Steve Jobs",
+    author: "Walter Isaacson",
+    price: 19,
+    image: "https://covers.openlibrary.org/b/id/8231826-L.jpg",
+    description: "The definitive biography of the Apple co-founder and visionary leader."
+  },
+  {
+    genre: "Non-fiction",
     name: "Man’s Search for Meaning",
     author: "Viktor E. Frankl",
-    price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "A Holocaust survivor's lessons for spiritual survival and finding purpose in life."
-  },
-  {
-    genre: "Non-Fiction",
-    name: "The Body Keeps the Score",
-    author: "Bessel van der Kolk",
-    price: 15,
-    image: "https://via.placeholder.com/150",
-    description: "A pioneering book on trauma, showing how it reshapes both body and brain."
-  },
-  {
-    genre: "Non-Fiction",
-    name: "The 48 Laws of Power",
-    author: "Robert Greene",
     price: 14,
-    image: "https://via.placeholder.com/150",
-    description: "A guide to understanding power dynamics and strategies for gaining, defending, and using power."
+    image: "https://covers.openlibrary.org/b/id/7884861-L.jpg",
+    description: "A memoir and psychological exploration of life in Nazi concentration camps."
   },
   {
-    genre: "Non-Fiction",
-    name: "Why We Sleep",
-    author: "Matthew Walker",
-    price: 13,
-    image: "https://via.placeholder.com/150",
-    description: "A comprehensive exploration of the science of sleep and its vital importance to our health."
-  },
-  {
-    genre: "Non-Fiction",
-    name: "The Four Agreements",
-    author: "Don Miguel Ruiz",
-    price: 9,
-    image: "https://via.placeholder.com/150",
-    description: "A practical guide to personal freedom, based on ancient Toltec wisdom."
-  },
-  {
-    genre: "Non-Fiction",
-    name: "Think Like a Monk",
-    author: "Jay Shetty",
-    price: 12,
-    image: "https://via.placeholder.com/150",
-    description: "Jay Shetty shares timeless wisdom and practical steps to live a less anxious, more meaningful life."
-  },
-  {
-    genre: "Non-Fiction",
-    name: "Digital Minimalism",
-    author: "Cal Newport",
-    price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "A guide to living better with less technology and regaining control over your digital life."
-  },
-  {
-    genre: "Non-Fiction",
-    name: "Deep Work",
-    author: "Cal Newport",
-    price: 11,
-    image: "https://via.placeholder.com/150",
-    description: "A book about the benefits of deep, focused work and how to achieve it in a distracted world."
-  },
-  {
-    genre: "Non-Fiction",
-    name: "How to Win Friends & Influence People",
-    author: "Dale Carnegie",
-    price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "A timeless classic on communication and relationship-building skills for personal and professional success."
-  },
-  {
-    genre: "Non-Fiction",
-    name: "Daring Greatly",
-    author: "Brené Brown",
-    price: 11,
-    image: "https://via.placeholder.com/150",
-    description: "A book about the power of vulnerability and how it can transform the way we live, love, and lead."
+    genre: "Non-fiction",
+    name: "Bad Blood: Secrets and Lies in a Silicon Valley Startup",
+    author: "John Carreyrou",
+    price: 16,
+    image: "https://covers.openlibrary.org/b/id/9339414-L.jpg",
+    description: "The shocking story of the Theranos scandal and corporate fraud."
   }
 ];
+
 
 
 const manga = [
   {
     genre: "Manga",
-    name: "Naruto, Vol. 1",
+    name: "Naruto",
     author: "Masashi Kishimoto",
-    price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "Follow Naruto Uzumaki, a young ninja with dreams of becoming Hokage, as he begins his journey in the Hidden Leaf Village."
+    price: 9,
+    image: "https://covers.openlibrary.org/b/id/10512815-L.jpg",
+    description: "A young ninja strives to become the strongest leader in his village while overcoming many challenges."
   },
   {
     genre: "Manga",
-    name: "One Piece, Vol. 1",
+    name: "One Piece",
     author: "Eiichiro Oda",
     price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "Monkey D. Luffy sets sail to become the Pirate King and find the legendary treasure known as One Piece."
+    image: "https://covers.openlibrary.org/b/id/10515738-L.jpg",
+    description: "Monkey D. Luffy and his pirate crew search for the ultimate treasure known as 'One Piece'."
   },
   {
     genre: "Manga",
-    name: "Attack on Titan, Vol. 1",
+    name: "Attack on Titan",
     author: "Hajime Isayama",
     price: 11,
-    image: "https://via.placeholder.com/150",
-    description: "Humanity fights for survival against giant man-eating Titans in a world surrounded by massive walls."
+    image: "https://covers.openlibrary.org/b/id/10507099-L.jpg",
+    description: "Humanity battles giant humanoid Titans threatening their existence behind enormous walls."
   },
   {
     genre: "Manga",
-    name: "Death Note, Vol. 1",
-    author: "Tsugumi Ohba & Takeshi Obata",
-    price: 11,
-    image: "https://via.placeholder.com/150",
-    description: "A high school student discovers a notebook that allows him to kill anyone by writing their name in it."
+    name: "Death Note",
+    author: "Tsugumi Ohba",
+    price: 8,
+    image: "https://covers.openlibrary.org/b/id/10496252-L.jpg",
+    description: "A high school student discovers a supernatural notebook that kills anyone whose name is written in it."
   },
   {
     genre: "Manga",
-    name: "Demon Slayer, Vol. 1",
-    author: "Koyoharu Gotouge",
-    price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "Tanjiro Kamado becomes a demon slayer to save his sister and avenge his family."
-  },
-  {
-    genre: "Manga",
-    name: "Tokyo Ghoul, Vol. 1",
-    author: "Sui Ishida",
-    price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "Ken Kaneki's life changes forever after a chance encounter with a flesh-eating ghoul."
-  },
-  {
-    genre: "Manga",
-    name: "Fullmetal Alchemist, Vol. 1",
+    name: "Fullmetal Alchemist",
     author: "Hiromu Arakawa",
     price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "Brothers Edward and Alphonse Elric use alchemy in their quest to restore their bodies."
+    image: "https://covers.openlibrary.org/b/id/10500303-L.jpg",
+    description: "Two brothers use alchemy in their quest to restore their bodies after a failed ritual."
   },
   {
     genre: "Manga",
-    name: "Bleach, Vol. 1",
+    name: "My Hero Academia",
+    author: "Kohei Horikoshi",
+    price: 9,
+    image: "https://covers.openlibrary.org/b/id/10511504-L.jpg",
+    description: "In a world where superpowers are common, a powerless boy strives to become a hero."
+  },
+  {
+    genre: "Manga",
+    name: "Tokyo Ghoul",
+    author: "Sui Ishida",
+    price: 9,
+    image: "https://covers.openlibrary.org/b/id/10511733-L.jpg",
+    description: "A college student becomes a half-ghoul after a deadly encounter, struggling to live between two worlds."
+  },
+  {
+    genre: "Manga",
+    name: "Dragon Ball",
+    author: "Akira Toriyama",
+    price: 8,
+    image: "https://covers.openlibrary.org/b/id/10505318-L.jpg",
+    description: "The adventures of Goku from childhood through adulthood as he trains in martial arts and explores the world."
+  },
+  {
+    genre: "Manga",
+    name: "Bleach",
     author: "Tite Kubo",
     price: 9,
-    image: "https://via.placeholder.com/150",
-    description: "Ichigo Kurosaki gains the powers of a Soul Reaper and battles evil spirits known as Hollows."
+    image: "https://covers.openlibrary.org/b/id/10510848-L.jpg",
+    description: "A teenager gains the powers of a Soul Reaper and must defend humans from evil spirits."
   },
   {
     genre: "Manga",
-    name: "My Hero Academia, Vol. 1",
-    author: "Kohei Horikoshi",
+    name: "One Punch Man",
+    author: "ONE",
+    price: 8,
+    image: "https://covers.openlibrary.org/b/id/10510499-L.jpg",
+    description: "A hero who can defeat any opponent with a single punch struggles to find a worthy challenger."
+  },
+  {
+    genre: "Manga",
+    name: "Demon Slayer",
+    author: "Koyoharu Gotouge",
     price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "Izuku Midoriya, born without superpowers, dreams of becoming a hero in a world full of them."
+    image: "https://covers.openlibrary.org/b/id/10506102-L.jpg",
+    description: "A boy becomes a demon slayer to avenge his family and save his demon-turned sister."
   },
   {
     genre: "Manga",
-    name: "One Punch Man, Vol. 1",
-    author: "ONE & Yusuke Murata",
-    price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "Saitama can defeat any enemy with a single punch, but struggles with boredom and finding a worthy opponent."
-  },
-  {
-    genre: "Manga",
-    name: "Chainsaw Man, Vol. 1",
-    author: "Tatsuki Fujimoto",
-    price: 11,
-    image: "https://via.placeholder.com/150",
-    description: "Denji, a young man with a chainsaw demon dog, becomes a devil hunter to pay off his debts."
-  },
-  {
-    genre: "Manga",
-    name: "Spy x Family, Vol. 1",
-    author: "Tatsuya Endo",
-    price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "A spy, an assassin, and a telepath form a fake family for the sake of a secret mission."
-  },
-  {
-    genre: "Manga",
-    name: "Jujutsu Kaisen, Vol. 1",
-    author: "Gege Akutami",
-    price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "Yuji Itadori joins a secret organization to fight curses after swallowing a powerful cursed object."
-  },
-  {
-    genre: "Manga",
-    name: "Dragon Ball, Vol. 1",
-    author: "Akira Toriyama",
+    name: "Tokyo Revengers",
+    author: "Ken Wakui",
     price: 9,
-    image: "https://via.placeholder.com/150",
-    description: "Young Goku embarks on an adventure to collect the seven Dragon Balls and make his wish come true."
+    image: "https://covers.openlibrary.org/b/id/10512654-L.jpg",
+    description: "A man travels back in time to save his friends and change the course of his life."
   },
   {
     genre: "Manga",
-    name: "Dr. Stone, Vol. 1",
-    author: "Riichiro Inagaki & Boichi",
-    price: 11,
-    image: "https://via.placeholder.com/150",
-    description: "After humanity is petrified, Senku uses science to rebuild civilization from scratch."
+    name: "Black Clover",
+    author: "Yūki Tabata",
+    price: 9,
+    image: "https://covers.openlibrary.org/b/id/10510805-L.jpg",
+    description: "Two orphans aim to become the Wizard King in a world of magic and adventure."
   },
   {
     genre: "Manga",
-    name: "The Promised Neverland, Vol. 1",
-    author: "Kaiu Shirai & Posuka Demizu",
+    name: "Fairy Tail",
+    author: "Hiro Mashima",
+    price: 9,
+    image: "https://covers.openlibrary.org/b/id/10510984-L.jpg",
+    description: "A guild of powerful wizards embark on quests and form strong bonds of friendship."
+  },
+  {
+    genre: "Manga",
+    name: "Hunter x Hunter",
+    author: "Yoshihiro Togashi",
     price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "Children at Grace Field House uncover a dark secret and plan a daring escape."
-  },
-  {
-    genre: "Manga",
-    name: "Blue Lock, Vol. 1",
-    author: "Muneyuki Kaneshiro & Yusuke Nomura",
-    price: 11,
-    image: "https://via.placeholder.com/150",
-    description: "Japan's best young soccer players compete in a ruthless program to create the ultimate striker."
-  },
-  {
-    genre: "Manga",
-    name: "Berserk, Vol. 1",
-    author: "Kentaro Miura",
-    price: 15,
-    image: "https://via.placeholder.com/150",
-    description: "Guts, a lone mercenary, battles demons and fate in a dark fantasy world."
-  },
-  {
-    genre: "Manga",
-    name: "Vagabond, Vol. 1",
-    author: "Takehiko Inoue",
-    price: 13,
-    image: "https://via.placeholder.com/150",
-    description: "A reimagining of the life of legendary swordsman Miyamoto Musashi."
-  },
-  {
-    genre: "Manga",
-    name: "Vinland Saga, Vol. 1",
-    author: "Makoto Yukimura",
-    price: 15,
-    image: "https://via.placeholder.com/150",
-    description: "Thorfinn seeks revenge and adventure in a Viking epic inspired by historical events."
-  },
-  {
-    genre: "Manga",
-    name: "Goodnight Punpun, Vol. 1",
-    author: "Inio Asano",
-    price: 14,
-    image: "https://via.placeholder.com/150",
-    description: "A surreal coming-of-age story following the life and struggles of Punpun Punyama."
+    image: "https://covers.openlibrary.org/b/id/10512494-L.jpg",
+    description: "A young boy becomes a Hunter to find his father and faces numerous challenges."
   }
 ];
+
+
 
 const frenchTitles = [
   {
@@ -519,7 +427,7 @@ const frenchTitles = [
     name: "Le Petit Prince",
     author: "Antoine de Saint-Exupéry",
     price: 7,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/id/8231856-L.jpg",
     description: "A poetic tale about a young prince's journey, exploring themes of innocence, friendship, and human nature."
   },
   {
@@ -527,7 +435,7 @@ const frenchTitles = [
     name: "Les Misérables",
     author: "Victor Hugo",
     price: 12,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/id/8315116-L.jpg",
     description: "An epic story of redemption, justice, and love set against the backdrop of 19th-century France."
   },
   {
@@ -535,7 +443,7 @@ const frenchTitles = [
     name: "L'Étranger",
     author: "Albert Camus",
     price: 9,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/id/8231999-L.jpg",
     description: "A philosophical novel about alienation and the absurdity of life, told through the eyes of Meursault."
   },
   {
@@ -543,7 +451,7 @@ const frenchTitles = [
     name: "Germinal",
     author: "Émile Zola",
     price: 11,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/id/8234614-L.jpg",
     description: "A powerful depiction of a coal miners' strike in 19th-century France and the struggle for social justice."
   },
   {
@@ -551,7 +459,7 @@ const frenchTitles = [
     name: "Madame Bovary",
     author: "Gustave Flaubert",
     price: 10,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/id/8231831-L.jpg",
     description: "The tragic story of Emma Bovary, whose pursuit of passion and luxury leads to her downfall."
   },
   {
@@ -559,7 +467,7 @@ const frenchTitles = [
     name: "Les Fleurs du mal",
     author: "Charles Baudelaire",
     price: 8,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/id/8315214-L.jpg",
     description: "A landmark poetry collection exploring beauty, decadence, and the complexities of the human soul."
   },
   {
@@ -567,7 +475,7 @@ const frenchTitles = [
     name: "Candide",
     author: "Voltaire",
     price: 6,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/id/8231914-L.jpg",
     description: "A satirical adventure that critiques optimism and society through the misadventures of Candide."
   },
   {
@@ -575,7 +483,7 @@ const frenchTitles = [
     name: "Le Rouge et le Noir",
     author: "Stendhal",
     price: 9,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/id/8232163-L.jpg",
     description: "A psychological novel about ambition, love, and class struggle in post-Napoleonic France."
   },
   {
@@ -583,7 +491,7 @@ const frenchTitles = [
     name: "Les Trois Mousquetaires",
     author: "Alexandre Dumas",
     price: 13,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/id/8235075-L.jpg",
     description: "A swashbuckling tale of adventure, friendship, and intrigue in 17th-century France."
   },
   {
@@ -591,7 +499,7 @@ const frenchTitles = [
     name: "La Peste",
     author: "Albert Camus",
     price: 10,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/id/8232071-L.jpg",
     description: "A profound allegory about human resilience and solidarity during a plague in an Algerian town."
   },
   {
@@ -599,7 +507,7 @@ const frenchTitles = [
     name: "La Condition Humaine",
     author: "André Malraux",
     price: 12,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/id/8234582-L.jpg",
     description: "A gripping novel about revolution, fate, and existential struggle in 1920s Shanghai."
   },
   {
@@ -607,7 +515,7 @@ const frenchTitles = [
     name: "Les Mains Sales",
     author: "Jean-Paul Sartre",
     price: 9,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/id/8232190-L.jpg",
     description: "A political drama exploring themes of morality, ideology, and personal responsibility."
   },
   {
@@ -615,7 +523,7 @@ const frenchTitles = [
     name: "Notre-Dame de Paris",
     author: "Victor Hugo",
     price: 11,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/id/8231918-L.jpg",
     description: "A dramatic tale of love, fate, and tragedy centered around the iconic Parisian cathedral."
   },
   {
@@ -623,7 +531,7 @@ const frenchTitles = [
     name: "Bel-Ami",
     author: "Guy de Maupassant",
     price: 8,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/id/8231961-L.jpg",
     description: "The rise of an ambitious young man in Parisian society, using charm and manipulation to succeed."
   },
   {
@@ -631,282 +539,116 @@ const frenchTitles = [
     name: "La Princesse de Clèves",
     author: "Madame de La Fayette",
     price: 7,
-    image: "https://via.placeholder.com/150",
+    image: "https://covers.openlibrary.org/b/id/8232124-L.jpg",
     description: "A classic tale of love, duty, and honor at the royal court of 16th-century France."
-  },
-  {
-    genre: "Littérature française",
-    name: "La Chanson de Roland",
-    author: "Anonyme",
-    price: 6,
-    image: "https://via.placeholder.com/150",
-    description: "An epic medieval poem recounting the heroic deeds and tragic fate of Roland at Roncevaux."
-  },
-  {
-    genre: "Littérature française",
-    name: "Le Père Goriot",
-    author: "Honoré de Balzac",
-    price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "A poignant exploration of family, ambition, and society in 19th-century Paris."
-  },
-  {
-    genre: "Littérature française",
-    name: "Les Liaisons dangereuses",
-    author: "Pierre Choderlos de Laclos",
-    price: 9,
-    image: "https://via.placeholder.com/150",
-    description: "A tale of seduction, manipulation, and betrayal among the French aristocracy."
-  },
-  {
-    genre: "Littérature française",
-    name: "L'Assommoir",
-    author: "Émile Zola",
-    price: 10,
-    image: "https://via.placeholder.com/150",
-    description: "A realistic portrayal of working-class life and the destructive effects of alcoholism in Paris."
-  },
-  {
-    genre: "Littérature française",
-    name: "Phèdre",
-    author: "Jean Racine",
-    price: 7,
-    image: "https://via.placeholder.com/150",
-    description: "A classical tragedy of forbidden love, guilt, and fate in ancient Greece."
   }
 ];
+
+
 
 
 const bundles = [
   {
-    genre: "Bundle",
-    name: "Contemporary Fiction Starter Pack",
-    author: "",
-    price: "$39.99",
-    image: "https://via.placeholder.com/150",
-    description: "A curated bundle of modern fiction favorites to kickstart your reading journey."
+    name: "Shonen Jump Starter Pack",
+    genre: "Manga Bundle",
+    includedTitles: ["Naruto", "One Piece", "My Hero Academia", "Bleach"],
+    price: 35,
+    image: "https://covers.openlibrary.org/b/id/10512815-L.jpg",
+    description: "A perfect starter bundle featuring top Shonen Jump series for action and adventure lovers."
   },
   {
-    genre: "Bundle",
-    name: "Popular Non-Fiction Reads",
-    author: "",
-    price: "$44.99",
-    image: "https://via.placeholder.com/150",
-    description: "A selection of bestselling non-fiction books covering self-help, memoir, and history."
+    name: "Dark Fantasy Collection",
+    genre: "Manga Bundle",
+    includedTitles: ["Attack on Titan", "Tokyo Ghoul", "Demon Slayer"],
+    price: 28,
+    image: "https://covers.openlibrary.org/b/id/10507099-L.jpg",
+    description: "Dive into dark fantasy worlds with these gripping tales of survival and supernatural battles."
   },
   {
-    genre: "Bundle",
-    name: "Manga Classics Collection",
-    author: "",
-    price: "39,90€",
-    image: "https://via.placeholder.com/150",
-    description: "A collection of iconic manga volumes perfect for both new and seasoned fans."
+    name: "Classic Manga Hits",
+    genre: "Manga Bundle",
+    includedTitles: ["Dragon Ball", "Death Note", "Fullmetal Alchemist"],
+    price: 30,
+    image: "https://covers.openlibrary.org/b/id/10505318-L.jpg",
+    description: "Enjoy some of the most iconic manga series that shaped the genre worldwide."
   },
   {
-    genre: "Bundle",
-    name: "French Literature Essentials",
-    author: "",
-    price: "35,00€",
-    image: "https://via.placeholder.com/150",
-    description: "Essential works from French literature, featuring timeless classics and beloved authors."
+    name: "Heroic Adventures Pack",
+    genre: "Manga Bundle",
+    includedTitles: ["One Punch Man", "Black Clover", "Hunter x Hunter"],
+    price: 27,
+    image: "https://covers.openlibrary.org/b/id/10510499-L.jpg",
+    description: "Follow the journeys of powerful heroes in action-packed adventures filled with thrills."
   },
   {
-    genre: "Bundle",
-    name: "Thrillers and Suspense Bundle",
-    author: "",
-    price: "$45.50",
-    image: "https://via.placeholder.com/150",
-    description: "A gripping set of thrillers and suspense novels to keep you on the edge of your seat."
-  },
-  {
-    genre: "Bundle",
-    name: "Science & Self-Improvement Pack",
-    author: "",
-    price: "$47.00",
-    image: "https://via.placeholder.com/150",
-    description: "A bundle of insightful books on science, psychology, and personal growth."
-  },
-  {
-    genre: "Bundle",
-    name: "Modern Manga Hits",
-    author: "",
-    price: "49,90€",
-    image: "https://via.placeholder.com/150",
-    description: "A set of the most popular and influential manga series of recent years."
-  },
-  {
-    genre: "Bundle",
-    name: "Classic French Literature Set",
-    author: "",
-    price: "40,00€",
-    image: "https://via.placeholder.com/150",
-    description: "A handpicked collection of classic French novels and stories for literature lovers."
+    name: "Romance & Drama Set",
+    genre: "Manga Bundle",
+    includedTitles: ["Tokyo Revengers", "Fairy Tail", "Naruto"],
+    price: 25,
+    image: "https://covers.openlibrary.org/b/id/10512654-L.jpg",
+    description: "Experience heartfelt stories with romance, friendship, and emotional drama."
   }
 ];
 
-export const bestSellers = [
-  // Fiction
-  {
-    genre: "Fiction",
-    name: "Where the Crawdads Sing",
-    author: "Delia Owens",
-    price: 16,
-    image: "https://via.placeholder.com/150"
-  },
-  {
-    genre: "Fiction",
-    name: "The Night Circus",
-    author: "Erin Morgenstern",
-    price: 13,
-    image: "https://via.placeholder.com/150"
-  },
-  {
-    genre: "Fiction",
-    name: "The Midnight Library",
-    author: "Matt Haig",
-    price: 14,
-    image: "https://via.placeholder.com/150"
-  },
 
-  // Non-Fiction
-  {
-    genre: "Non-Fiction",
-    name: "Sapiens: A Brief History of Humankind",
-    author: "Yuval Noah Harari",
-    price: 18,
-    image: "https://via.placeholder.com/150"
-  },
-  {
-    genre: "Non-Fiction",
-    name: "Atomic Habits",
-    author: "James Clear",
-    price: 16,
-    image: "https://via.placeholder.com/150"
-  },
-  {
-    genre: "Non-Fiction",
-    name: "Educated",
-    author: "Tara Westover",
-    price: 15,
-    image: "https://via.placeholder.com/150"
-  },
-
-  // Manga (French titles)
+const bestSellers = [
   {
     genre: "Manga",
-    name: "L'Attaque des Titans, Tome 1",
-    author: "Hajime Isayama",
-    price: 11,
-    image: "https://via.placeholder.com/150"
-  },
-  {
-    genre: "Manga",
-    name: "Demon Slayer : Kimetsu no Yaiba, Tome 1",
+    name: "Demon Slayer: Kimetsu no Yaiba",
     author: "Koyoharu Gotouge",
-    price: 10,
-    image: "https://via.placeholder.com/150"
+    price: 12,
+    image: "https://covers.openlibrary.org/b/id/10511222-L.jpg",
+    description: "A breathtaking story of a boy fighting demons to save his sister and protect humanity."
   },
   {
-    genre: "Manga",
-    name: "Naruto, Tome 1",
-    author: "Masashi Kishimoto",
-    price: 10,
-    image: "https://via.placeholder.com/150"
-  },
-
-  // French Literature
-  {
-    genre: "French Literature",
-    name: "Le Petit Prince",
-    author: "Antoine de Saint-Exupéry",
-    price: 7,
-    image: "https://via.placeholder.com/150"
-  },
-  {
-    genre: "French Literature",
+    genre: "Littérature française",
     name: "Les Misérables",
     author: "Victor Hugo",
     price: 12,
-    image: "https://via.placeholder.com/150"
+    image: "https://covers.openlibrary.org/b/id/8281991-L.jpg",
+    description: "An epic story of redemption, justice, and love set against 19th-century France."
   },
   {
-    genre: "French Literature",
-    name: "L'Étranger",
-    author: "Albert Camus",
-    price: 10,
-    image: "https://via.placeholder.com/150"
-  },
-
-  // More Fiction
-  {
-    genre: "Fiction",
-    name: "The Song of Achilles",
-    author: "Madeline Miller",
+    genre: "Science Fiction",
+    name: "Dune",
+    author: "Frank Herbert",
     price: 15,
-    image: "https://via.placeholder.com/150"
+    image: "https://covers.openlibrary.org/b/id/8104731-L.jpg",
+    description: "A science fiction masterpiece exploring politics, religion, and ecology on a desert planet."
   },
   {
-    genre: "Fiction",
-    name: "Normal People",
-    author: "Sally Rooney",
-    price: 13,
-    image: "https://via.placeholder.com/150"
+    genre: "Fantasy",
+    name: "Harry Potter and the Sorcerer's Stone",
+    author: "J.K. Rowling",
+    price: 14,
+    image: "https://covers.openlibrary.org/b/id/7984916-L.jpg",
+    description: "The magical journey of a young wizard discovering his destiny."
   },
-
-  // More Non-Fiction
   {
-    genre: "Non-Fiction",
-    name: "Becoming",
-    author: "Michelle Obama",
+    genre: "Non-fiction",
+    name: "Sapiens: A Brief History of Humankind",
+    author: "Yuval Noah Harari",
     price: 18,
-    image: "https://via.placeholder.com/150"
+    image: "https://covers.openlibrary.org/b/id/8374671-L.jpg",
+    description: "An exploration of the history and impact of Homo sapiens on the world."
   },
   {
-    genre: "Non-Fiction",
-    name: "The Body Keeps the Score",
-    author: "Bessel van der Kolk",
-    price: 17,
-    image: "https://via.placeholder.com/150"
+    genre: "Mystery",
+    name: "The Girl with the Dragon Tattoo",
+    author: "Stieg Larsson",
+    price: 13,
+    image: "https://covers.openlibrary.org/b/id/8231993-L.jpg",
+    description: "A gripping thriller involving murder, family secrets, and corporate intrigue."
   },
-
-  // More Manga
   {
-    genre: "Manga",
-    name: "One Piece, Tome 1",
-    author: "Eiichiro Oda",
+    genre: "Romance",
+    name: "Pride and Prejudice",
+    author: "Jane Austen",
     price: 10,
-    image: "https://via.placeholder.com/150"
-  },
-  {
-    genre: "Manga",
-    name: "Death Note, Tome 1",
-    author: "Tsugumi Ohba & Takeshi Obata",
-    price: 11,
-    image: "https://via.placeholder.com/150"
-  },
-  {
-    genre: "Manga",
-    name: "My Hero Academia, Tome 1",
-    author: "Kohei Horikoshi",
-    price: 10,
-    image: "https://via.placeholder.com/150"
-  },
-
-  // More French Lit
-  {
-    genre: "French Literature",
-    name: "Germinal",
-    author: "Émile Zola",
-    price: 11,
-    image: "https://via.placeholder.com/150"
-  },
-  {
-    genre: "French Literature",
-    name: "Madame Bovary",
-    author: "Gustave Flaubert",
-    price: 11,
-    image: "https://via.placeholder.com/150"
+    image: "https://covers.openlibrary.org/b/id/8091016-L.jpg",
+    description: "A classic romance about manners, marriage, and misunderstandings."
   }
 ];
+
 
 export const genres = [fiction, nonFiction, manga, frenchTitles, bundles, bestSellers ];
