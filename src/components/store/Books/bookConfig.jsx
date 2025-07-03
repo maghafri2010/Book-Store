@@ -3,30 +3,8 @@ import { cashOn, freeShipping, onDemand, support } from "../../../assets/images"
 import Categories from "../../home/categories";
 import { genresTitle } from "../../../pages/home";
 import SliderImage from "../../home/sliderImage";
-import booksData from "../../../assets/listBooks";
-const about = [
-{
-    img: freeShipping  ,
-    title: "Free Shipping"  ,
-    text: "When you purchase a book bundle, The Shipping is on us! Enjoy free delivery."
-},
-{
-    img: cashOn ,
-    title: "Cash On delivery" ,
-    text: "Payment is only processed upon receipt of your order and confirmation of its quality."
-},
-{
-    img: onDemand ,
-    title: "On-Demand"  ,
-    text: "Let us know your desired title, and we will fulfill your request with our On-Demand Services."
-},
-{
-    img: support ,
-    title: "Support Center"  ,
-    text: "We have a dedicated 24/7 team, available to address any inquiries you may have."
-},
-    
-]
+import booksData from "../../../assets/listOfGenres";
+import About from "../../utility/about";
 
 export default function BookConfig({book})
 {
@@ -73,24 +51,14 @@ export default function BookConfig({book})
             </div>
 
         </div>
-        <div className="flex flex-col justify-center text-center mt-20">
-            <h1 className="text-4xl mb-4">More about us 🏠</h1>
-            <p>We're here to cater to your reading desires. Just let us know the book you want,<br /> and we'll make it available for you. Our goal is to ensure your complete satisfaction. <br /> We're not just an ordinary bookstore; we're like family for book lovers. ❤️</p>
-        </div>
-        <div className="flex m-20 justify-center">
-            {about.map((div, i) =>
-            <div className=" bg-gray-200 m-2 flex flex-col justify-center items-center text-center rounded-[10px] w-[350px] ">
-                <img className="w-16 h-16 my-4" src={div.img}  />
-                <h1 className="text-2xl mb-2">{div.title}</h1>
-                <p className="mb-4">{div.text}</p>
-            </div>
-            )}
-        </div>
+        
+        <About />
+
         <Categories />
-        <SliderImage books={booksData.fictionBooks} title={genresTitle[0]} i={0} />
-        <SliderImage books={booksData.nonFictionBooks} title={genresTitle[1]} i={1} />
-        <SliderImage books={booksData.springBooks} title={genresTitle[2]} i={2}/>
-        <SliderImage books={booksData.mangaBooks} title={genresTitle[3]} i={3}/>
+        <SliderImage books={booksData.fiction} title={genresTitle[0]} i={0} genreIndex={0} />
+        <SliderImage books={booksData.nonFiction} title={genresTitle[1]} i={1} genreIndex={1} />
+        <SliderImage books={booksData.manga} title={genresTitle[2]} i={2} genreIndex={2}/>
+        <SliderImage books={booksData.frenchTitles} title={genresTitle[3]} i={3} genreIndex={3}/>
 
         </>
     );

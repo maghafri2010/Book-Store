@@ -650,5 +650,5 @@ const bestSellers = [
   }
 ];
 
-
+export default {fiction, nonFiction, manga, frenchTitles, bundles, bestSellers };
 export const genres = [fiction, nonFiction, manga, frenchTitles, bundles, bestSellers ];

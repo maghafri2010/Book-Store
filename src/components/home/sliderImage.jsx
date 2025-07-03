@@ -1,5 +1,5 @@
 import React, {use, useState} from "react";
-import booksData from "../../assets/listBooks";
+import booksData from "../../assets/listOfGenres";
 import { rightArrow, leftArrow, sale } from "../../assets/images";
 
 import Slider from 'react-slick';
@@ -21,7 +21,7 @@ const settings = {
 
 const genresTitle = ['Fiction Team Choice 🔮🪐', 'Non-Fiction Team Choice 🎖️', 'Spring: A Treasury of Bestseller Timeless Classics 📜', 'Best of Manga Bundles 🇯🇵' ];
 
-export default function SliderImage({books = booksData.fictionBooks, title, i}) {
+export default function SliderImage({books = booksData.fiction, title, i, genreIndex}) {
    
     return( 
         <div className="flex flex-col mt-12">
@@ -30,7 +30,7 @@ export default function SliderImage({books = booksData.fictionBooks, title, i}) 
 
             <Slider {...settings} className="w-full max-x-6-xl mt-12">
                 {books.map((book, i) => (
-                    <div 
+                    <Link to={`/book/${genreIndex}/${i}`} 
                     key={i} 
                     className=" flex flex-col items-center justify-center h-72 hover:underline cursor-pointer "
                     > 
@@ -42,7 +42,7 @@ export default function SliderImage({books = booksData.fictionBooks, title, i}) 
                     <img className="w-8" src={sale} alt="" />
                     <p className="">{book.name} <br /> By: {book.author} <br />  {book.prix}.00$</p>
                     
-                    </div>
+                    </Link>
                 ))}
 
             </Slider>

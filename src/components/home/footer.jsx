@@ -11,7 +11,7 @@ export default function Footer(){
                 <div className="border-r-1 border-white p-6">
                 <p>Subscribe to our newsletter for weekly book excerpts, exclusive literary content, and special book-related offers.</p>
                 <div className="p-4">
-                    <input type="text" placeholder="  Email Address"  className="w-96 h-10 rounded bg-red-900"/>
+                    <input type="text" placeholder="Email Address"  className="w-96 p-3 h-10 rounded bg-red-900"/>
                     <button className="rounded bg-red-950 h-10 w-28 cursor-pointer hover:opacity-80 transition-transform ease-in-out">Subscribe</button>
                 </div>
                 <p className="text-black">By signing uup, you agree to our <u><a href="">Privacy Policy.</a></u></p>
